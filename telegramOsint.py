@@ -6,8 +6,8 @@ import re
 import pytz
 
 # Вставляем api_id и api_hash
-api_id = 1093859
-api_hash = '522089ed4f1c11814c8af05268e944b3'
+api_id = ...
+api_hash = '...'
 client = TelegramClient('telegramOsint', api_id, api_hash)
 #For two-factor authorization
 #client.start(password="Qwerty123")
